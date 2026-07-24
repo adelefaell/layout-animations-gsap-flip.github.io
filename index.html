@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Layout Animations Gsap Flip</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <div class="nav-item">
+          <li>
+            <a href="#">Our Story</a>
+            <div class="active-nav"></div>
+          </li>
+        </div>
+        <div class="nav-item">
+          <li>
+            <a href="#">Projects</a>
+          </li>
+        </div>
+        <div class="nav-item">
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="card">
+        <h1>Awesome Sauce 🫙</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          molestiae dolores quidem facere cupiditate libero ab vel ducimus nisi
+          vitae?
+        </p>
+      </div>
+      <div class="card">
+        <h1>Pretty Card 🎴</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          molestiae dolores quidem facere cupiditate libero ab vel ducimus nisi
+          vitae?
+        </p>
+      </div>
+      <div class="card">
+        <h1>Animation ✨</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          molestiae dolores quidem facere cupiditate libero ab vel ducimus nisi
+          vitae?
+        </p>
+      </div>
+      <div class="card">
+        <h1>This Is Crazy Shit 🔥</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          molestiae dolores quidem facere cupiditate libero ab vel ducimus nisi
+          vitae?
+        </p>
+      </div>
+    </section>
+
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- gsap plugin flip  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Flip.min.js"
+      integrity="sha512-byzUdBXaTSrgrlWDvkyU6TBkRSUUiI3EzVIdZtrYEUx1hFnsel9QmEs3QWpKo+8N+G9eOjSxQzFWF1PLq0+WVw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
