@@ -3,7 +3,7 @@ html JavaScript CSS with gasp animations
 
 ### NOT responsive!!!!
 
-## Live URL: [Layout Animations gsap flip](https://layout-animations-gsap-flip.github.io/)
+## Live URL: [Layout Animations gsap flip](https://adelefaell.github.io/layout-animations-gsap-flip/)
 
 
 Preview
